@@ -63,9 +63,9 @@ public class MonsterCar
     {
         player.stop();
     }
-    public void upgradEngi(Engine engine)
+    public void upgradEngi
     {
-        this.engine=engine;
+        this.engine=new ElectricEngine();
     }
 }
 
@@ -79,6 +79,8 @@ public class Main {
         MonsterCar car=new MonsterCar();
         car.start();
         car.startMu();
+        car.upgradEngi();
+        car.start();
     }
 }
 
