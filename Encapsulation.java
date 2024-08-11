@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class encapsu
 {
     //protected make scope upto subClass of main class which is encapsu
